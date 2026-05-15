@@ -9,7 +9,8 @@ Roxy is an autonomous AI agent simplifying crypto operations through natural lan
 - **Trade & Swap** — DEX aggregation with optimal routing and gas estimation
 - **Bridge** — Cross-chain transfers via Li.Fi aggregation
 - **Portfolio** — Real-time balances, gas monitoring, token prices
-- **Security** — Nonce monitoring, exploit detection, auto rescue, approval revocation
+- **Security** — Nonce monitoring, exploit detection, approval revocation
+- **Rescue Fund** — Automatic fund sweep to safe wallet when exploit detected
 - **Multi-Wallet** — Multiple wallet identities for diversified activity
 - **24/7 Alerts** — Autonomous token watcher with instant notifications
 - **Contracts** — Direct ABI-based calls with any verified smart contract

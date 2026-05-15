@@ -82,6 +82,23 @@ python agent.py
 - No plaintext credentials stored anywhere
 - Auto-sweep protection for compromised wallets
 
+## Tools & Scripts
+
+Roxy comes with a comprehensive toolkit for crypto automation:
+
+📁 **[tools/](./tools/)** — Core automation scripts
+
+- **wallet_rescue.py** — Multi-chain wallet rescue and sweep operations
+- **automation.py** — Core toolkit (portfolio, gas, bridge, scam detection)
+- **guardian.py** — Autonomous wallet security monitoring
+- **token_watcher.py** — 24/7 token deposit monitoring
+- **portfolio.py** — Real-time portfolio tracking
+- **batch_send.py** — Batch token transfers
+- **airdrop_claimer.py** — Automated airdrop claiming
+- **metamask_inject.py** — Browser automation with MetaMask injection
+
+See [tools/README.md](./tools/README.md) for detailed usage.
+
 ## Building Your Own Agent
 
 Want to build your own autonomous crypto agent? Check out the [Building Roxy's Soul](./docs/BUILDING_SOUL.md) guide — it covers:
