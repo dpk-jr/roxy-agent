@@ -82,6 +82,18 @@ python agent.py
 - No plaintext credentials stored anywhere
 - Auto-sweep protection for compromised wallets
 
+## Building Your Own Agent
+
+Want to build your own autonomous crypto agent? Check out the [Building Roxy's Soul](./docs/BUILDING_SOUL.md) guide — it covers:
+
+- System prompt architecture
+- Personality & tone design
+- Skills system (procedural memory)
+- Memory architecture (persistent facts)
+- Security patterns (encryption, confirmation, auto-sweep)
+- Multi-platform setup (Telegram, Discord)
+- Best practices and common pitfalls
+
 ## License
 
 MIT
