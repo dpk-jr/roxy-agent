@@ -25,7 +25,7 @@ CRED_DIR = Path.home() / ".agent" / "credentials"
 load_dotenv(CRED_DIR / "rescue-config.env")
 
 ALCHEMY_KEY = os.getenv("ALCHEMY_API_KEY", "")
-RESCUE_WALLET = "0xe01E3BeB592c21d08F7711442de04318A58706F4"
+RESCUE_WALLET = os.getenv("RESCUE_EVM_WALLET", "YOUR_RESCUE_WALLET_ADDRESS")
 
 # Load main wallet
 with open(CRED_DIR / "roxy-evm-wallet.enc.json") as f:

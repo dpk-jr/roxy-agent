@@ -15,7 +15,7 @@ import httpx
 from pathlib import Path
 from datetime import datetime
 
-WALLET = "0xD86c77A9D051C21c3e0A0aa9b8921ed7954d8FeF"
+WALLET = os.getenv("ROXY_EVM_WALLET", "YOUR_WALLET_ADDRESS")
 CLAIM_LOG = Path.home() / "projects" / "wallet-rescue" / "claim_log.json"
 
 # Known airdrop contracts & their claim functions

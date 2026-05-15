@@ -34,8 +34,8 @@ LOG_FILE = Path.home() / "projects" / "wallet-rescue" / "deposit_log.json"
 load_dotenv(CRED_DIR / "rescue-config.env")
 
 ALCHEMY_KEY = os.getenv("ALCHEMY_API_KEY", "")
-WATCH_WALLET = "0xD86c77A9D051C21c3e0A0aa9b8921ed7954d8FeF"
-WATCH_WALLET_SOL = "2fHjm3fWX6LVGDPuu3re8yY2YzRx5QQ81jXV32uzBmgV"
+WATCH_WALLET = os.getenv("ROXY_EVM_WALLET", "YOUR_WALLET_ADDRESS")
+WATCH_WALLET_SOL = os.getenv("ROXY_SOLANA_WALLET", "YOUR_SOLANA_ADDRESS")
 
 # ─── Chains ────────────────────────────────────────────────────────────────
 
